@@ -1,0 +1,151 @@
+/* ADD YOUR STYLES HERE */
+.col1 {
+	padding-right: 55px;
+}
+.col3 {
+	padding-left: 100px
+}
+.col4 {
+	padding-left: 100px
+}
+.t1row2 {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+.t2row1 {
+	padding: 10px;
+	border-bottom: solid 1px black;
+}
+.t2row3 {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+td {
+	padding: 10px;
+}
+.t2col3 {
+	width: 200px;
+}
+.t2col2 {
+	width: 150px
+}
+
+/* Stats */
+
+.stats {
+	border-top: solid 1px gray;
+	border-bottom: solid 1px gray;
+}
+.row1stats {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	width: 60px;
+	padding-top: 10px;
+}
+.row2stats {
+	color: gray;
+	font-size: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* bar chart */
+
+.barchart div {
+	background-color: rgb(89,158,222);
+	color: white;
+	border-radius: 2px;
+	margin: -8px;
+	padding: 3px 7px;
+}
+.barchart td {
+	width: 100%;
+}
+.barchart th {
+	float: right;
+	padding-right: 5px;
+}
+.obc {
+	width: 88px;
+}
+
+/* Light Box */
+
+.outerbox {
+ 	/*display: none;*/
+	/*width: 100%;*/
+ 	/*height: 100%;*/
+ 	/*background-color: rgb(89,89,89);*/
+ 	/*opacity:1;*/
+ 	/*position: fixed;*/
+ 	/*z-index: 100;*/
+ 	/*top: 0;*/
+ 	/*left: 0;*/
+
+}
+.innerbox {
+	/*width: 37%;*/
+	/*height: 25%;*/
+	/*background-color: white;*/
+	/*padding: 20px 20px 60px 20px;*/
+	/*border-radius: 10px;*/
+	/*margin: 20% auto;*/
+ 
+}
+.close {
+	/*background-color: rgb(237,129,138);*/
+	/*border-radius: 8px;*/
+	/*padding: 10px 40px;*/
+	/*color: white;*/
+	/*float:right;*/
+}
+
+
+
+/* Media Block */
+
+
+
+.images1 {
+	float: left;
+}
+.firstpara, .secondpara, .thirdpara {
+	float: right;
+	width: 92%;
+}
+/*.bottom .floatleft{
+	float: left;
+}*/
+
+.floatleft {
+	margin-left: 5%;
+	float: left;
+	padding-bottom: 9%;
+}
+.innerinner2 {
+	width: 90%%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

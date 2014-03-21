@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Modularity</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="framework.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+          <div class="instructions-container">
+
+                  <ol class="instruction-list">
+
+                          <li>
+                                  <h1 class="instruction-title">Data Table</h1>
+
+                            <p class="instruction-text">Style a table full of data so that it looks nicer than the brower defaults.</p>
+                                        <div class="instruction-answer">
+                                                <!-- Edit here -->
+                                                <table>
+                                                        <tr class="t1row1">
+                                                                <td class="col1">0</td>
+                                                                <td class="col2">Sean</td>
+                                                                <td class="col3">Daaken</td>
+                                                                <td class="col4">@seandaken</td>
+                                                        </tr>
+                                                        <tr class="t1row2">
+                                                                <td class="col1">1</td>
+                                                                <td class="col2">Raine</td>
+                                                                <td class="col3">Lourie</td>
+                                                                <td class="col4">@metaraine</td>
+                                                        </tr>
+                                                        <tr class="t1row3">
+                                                                <td class="col1">2</td>
+                                                                <td class="col2">Matt</td>
+                                                                <td class="col3">Null</td>
+                                                                <td class="col4">@nullempire</td>
+                                                        </tr>
+                                                </table>
+                                    <!-- End editable area -->
+                                        </div>
+
+                            <p class="instruction-text">It should also handle header rows...</p>
+                                        <div class="instruction-answer">
+                                                <!-- Edit here -->
+                                                <table>
+                                                        <thead>
+                                                                <tr class="t2row1">
+                                                                        <th class="col1">#</th>
+                                                                        <th class="t2col2">First Name</th>
+                                                                        <th class="t2col3">Last Name</th>
+                                                                        <th>Username</th>
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr class="t2row2">
+                                                                        <td class="col1">0</td>
+                                                                        <td class="t2col2">Sean</td>
+                                                                        <td class="t2col3">Daaken</td>
+                                                                        <td >@seandaken</td>
+                                                                </tr>
+                                                                <tr class="t2row3">
+                                                                        <td class="col1">1</td>
+                                                                        <td class="t2col2">Raine</td>
+                                                                        <td class="t2col3">Lourie</td>
+                                                                        <td >@metaraine</td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td class="col1">2</td>
+                                                                        <td class="t2col2">Matt</td>
+                                                                        <td class="t2col3">Null</td>
+                                                                        <td >@nullempire</td>
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                    <!-- End editable area -->
+                                        </div>
+
+                          </li>
+
+                          <li>
+                                  <h1 class="instruction-title">Stats</h1>
+
+                            <p class="instruction-text">Three columns, three prominent numbers, three small labels</p>
+                                        <div class="instruction-answer">
+                                    <!-- Edit here -->
+                                    <table class="stats">
+                                            <tbody>
+                                                    <tr>
+                                                            <td><div class="row1stats">7</div><div class="row2stats">followers</div></td>
+                                                            <td><div class="row1stats">59</div><div class="row2stats">starred</div></td>
+                                                            <td><div class="row1stats">28</div><div class="row2stats">following</div></td>
+                                            </tbody>
+                                    </table>
+                                    <!-- End editable area -->
+                            </div>
+                          </li>
+
+                          <li>
+                                  <h1 class="instruction-title">Bar Chart</h1>
+
+                            <p class="instruction-text">Bar widths are set in the HTML as if they were populated from the back-end. Everything else should be styled with CSS.</p>
+                                        <div class="instruction-answer">
+                                    <!-- Edit here -->
+                                    <table class="barchart">
+                                            <tr>
+                                                    <th>Javascript</th>
+                                                    <td><div style="width: 99%">21%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>Ruby</th>
+                                                    <td><div style="width: 57.1%">12%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>Java</th>
+                                                    <td><div style="width: 38.1%">8%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>Python</th>
+                                                    <td><div style="width: 38.1%">8%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>Shell</th>
+                                                    <td><div style="width: 38.1%">8%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>PHP</th>
+                                                    <td><div style="width: 33.3%">7%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>C</th>
+                                                    <td><div style="width: 28.8%">6%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>C++</th>
+                                                    <td><div style="width: 23.8%">5%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>Perl</th>
+                                                    <td><div style="width: 19.0%">4%</div></td>
+                                            </tr>
+                                            <tr>
+                                                    <th class="obc">Objective-C</th>
+                                                    <td><div style="width: 14.3%">3%</div></td>
+                                            </tr>
+                                    </table>
+                                    <!-- End editable area -->
+                            </div>
+                          </li>
+
+                          <li>
+                                  <h1 class="instruction-title">Lightbox</h1>
+
+                            <p class="instruction-text">The lightbox should display arbitrary content, centered vertically and horizontally, with everything behind it (the rest of the page) darkened. It should obscure the entire screen, no matter where you are on the page. You may want to disable these styles when you're not actively working on them, otherwise they'll cover the whole page.</p>
+                                        <div class="instruction-answer">
+                                    <!-- Edit here -->
+                                    <div class="outerbox">
+                                            <div>
+                                                    <div class="innerbox">
+                                                            <h3>Hello</h3>
+                                                            <p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears. Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+                                                            <div>
+                                                                    <button class="close"><a>Close</a></button>
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <!-- End editable area -->
+                            </div>
+                          </li>
+
+                          <li>
+                                  <h1 class="instruction-title">Media Block</h1>
+
+                            <p class="instruction-text">A media block is a left-floated image with some content beside it. Think Facebook updates.</p>
+                                        <div class="instruction-answer">
+                                    <!-- Edit here -->
+                                    <img src="http://placehold.it/50" class="images1">
+                                    <p class="firstpara">Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+                                    <!-- End editable area -->
+                            </div>
+
+                            <p class="instruction-text">Does it work with a different html structure?</p>
+
+                            <!-- Edit here -->
+                                        <div class="instruction-answer">
+                                    <div class="images1">
+                                            <img src="http://placehold.it/50">
+                                    </div>
+                                    <div class="secondpara">
+                                            <h2>Cupcake Ipsum</h2>
+                                            <p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+                                    </div>
+                                    <!-- End editable area -->
+                                  </div>
+
+                            <p class="instruction-text">How about nested media objects?</p>
+
+                                        <div class="instruction-answer">
+                                    <!-- Edit here -->
+                                    <div class="images1">
+                                            <img src="http://placehold.it/50">
+                                    </div>
+                                    <div class="thirdpara">
+                                            <h2>Cupcake Ipsum</h2>
+                                            <p>Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+
+                                            <div class="bottom">
+                                                    <img src="http://placehold.it/32" class="floatleft">
+                                            </div>
+                                            <div >
+                                            <div class="innerinner2">
+                                                    <h2>I like cupcakes!</h2>
+                                                    <p >Cupcake ipsum dolor sit amet caramels jelly beans. Faworki donut applicake cookie. Apple pie wafer gummies biscuit cupcake gummies pastry.</p>
+                                            </div>
+
+                                            <div>
+                                                    <img src="http://placehold.it/32" class="floatleft">
+                                            </div>
+                                            <div class="innerinner2">
+                                                    <h2 >I like cupcakes, too!</h2>
+                                                    <p>Cupcake ipsum dolor sit amet donut lemon drops carrot cake topping bonbon powder sweet roll. Lollipop jujubes bonbon chupa chups jelly beans.</p>
+                                            </div>
+                                            </div>
+                                    </div>
+                                    <!-- End editable area -->
+                                  </div>
+
+                          </li>
+
+
+                        </ol>
+
+                </div>
+  </body>
+</html>
